@@ -1,0 +1,317 @@
+@media screen and (min-width:2000px){
+    .body{
+        width:1920px;
+        margin:auto;
+    }
+}
+@media screen and (max-width:1680px){
+    .banner-logo img{
+        width:350px;
+        margin-top: 30px;
+    }
+
+    .banner-searchbar input{
+        width:650px;
+        height: 55px;
+    }
+
+    .banner-searchbar a{
+        top:23px;
+        width: 55px;
+        height: 50px;
+        
+        
+    }
+    .category button{
+        width:300px;
+        height: 60px;
+        font-size:40px;
+        background-color:white;
+        color:black;
+        border:2px solid black;
+        border-radius:10px;
+        
+    }
+    .offer button{
+        width:300px;
+        height: 60px;
+        font-size:40px;
+        background-color:white;
+        color:black;
+        border:2px solid black;
+        border-radius:10px;
+        
+    }
+
+}
+
+
+@media screen and (max-width:1280px){
+    .banner-logo img{
+        width:350px;
+        margin-top: 40px;
+    }
+
+    .banner-searchbar input{
+        width:450px;
+        height: 45px;
+    }
+
+    .banner-searchbar a{
+        top:20px;
+        width: 45px;
+        height: 40px;      
+    }
+
+    .banner-searchbar a img{
+        width: 45px;
+    }
+
+}
+
+
+@media screen and (max-width:1080px){
+    .banner-logo img{
+        width:300px;
+    }
+
+    .banner-searchbar{
+        margin-top: 30px;
+    }
+
+    .banner-searchbar input{
+        width:400px;
+    }
+
+    .category button{
+        width:250px;
+        height: 50px;
+        font-size:30px;
+        background-color:white;
+        color:black;
+        border:2px solid black;
+        border-radius:10px;
+        
+    }
+    .offer button{
+        width:250px;
+        height: 50px;
+        font-size:30px;
+        background-color:white;
+        color:black;
+        border:2px solid black;
+        border-radius:10px;
+        
+    }
+    .advertising-card img{
+        border:10px solid white;
+        box-shadow:0 3px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+        width:800px;
+    
+    }
+}
+
+
+@media screen and (max-width:980px){
+    .banner-logo img{
+        width:300px;
+    }
+
+    .banner-searchbar{
+        margin-top: 30px;
+    }
+
+    .banner-searchbar input{
+        width:325px;
+    }
+
+    .banner .cart a{
+        border:2px solid black;
+        height: 45px;
+        width: 45px;
+        margin-top: 10px;
+    }
+
+    .banner .cart a img{
+        width: 35px;
+    }
+
+    .banner .avatar a{
+        border:2px solid black;
+        height: 45px;
+        width: 45px;
+        margin-top: 10px;
+    }
+    .banner .avatar a img{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .banner-logo{
+        order:1;
+        flex-basis: 50%;
+    }
+    .checkout{
+        order:2;
+    }
+    .banner-searchbar{
+        order:3;
+        padding-left: 10px;
+    }
+    .category button{
+        width:180px;
+        height: 45px;
+        font-size:30px;
+       
+        
+    }
+    .offer button{
+        width:180px;
+        height: 45px;
+        font-size:30px;    
+    }
+    .advertising-card p{
+        font-size:50px;
+    }
+    .advertising-card img{
+        border:10px solid white;
+        box-shadow:0 3px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+        width:500px;
+    
+    }
+    .product-header{
+        
+        font-size:50px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .advertising-card img{
+        border:10px solid white;
+        box-shadow:0 3px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+        width:350px;
+    
+    }
+}
+
+@media screen and (max-width:480px){
+    .banner-logo img{
+        margin-right: 10px;
+        margin-top:10px;
+    }
+    .banner-searchbar{
+        margin-top: 10px;
+    }
+
+    .banner .cart a{
+        border:1px solid black;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top:-10px;
+        height: 30px;
+        width: 30px;
+    }
+
+    .banner .cart a img{
+        width: 20px;
+        position: relative;
+        left: 6px;
+        top:6px;
+    }
+
+    .banner .avatar a{
+        border:1px solid black;
+        border-radius: 50%;
+        display: inline-block;
+        position: relative;
+        top:-10px;
+        height: 30px;
+        width: 30px;
+    }
+    .banner .avatar a img{
+        width: 20px;
+        position: relative;
+        left: 6px;
+        top:6px;
+    }
+    .advertising-card p{
+        font-size:30px;
+    }
+
+    .product-header{
+        
+        font-size:30px;
+    }
+
+
+}
+
+@media screen and (max-width:400px){
+    .banner-logo img{
+        width:250px;
+    }
+    .banner-searchbar input{
+        width:200px;
+        height:40px;
+    }
+    .category button{
+        width:150px;
+        height: 40px;
+        font-size:20px;
+       
+        
+    }
+    .offer button{
+        width:150px;
+        height: 40px;
+        font-size:20px;    
+    }
+    .advertising-card img{
+        border:10px solid white;
+        box-shadow:0 3px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+        width:300px;
+    
+    }
+
+    .product img{
+        width:240px;
+       
+    }
+}
+
+@media screen and (max-width:340px){
+    .banner-logo img{
+        width:175px;
+    }
+    .banner .cart a{
+        top:-20px;
+    }
+    .banner .avatar a{
+        top:-20px;
+    }
+    .banner-searchbar{
+        margin-top:0;
+    }
+    .category button{
+        width:120px;
+        height: 40px;
+        font-size:20px;
+       
+        
+    }
+    .offer button{
+        width:120px;
+        height: 40px;
+        font-size:20px;    
+    }
+    .advertising-card img{
+        border:10px solid white;
+        box-shadow:0 3px 4px rgba(0, 0, 0, .3), 0 8px 16px rgba(0, 0, 0, .3);
+        width:200px;
+    
+    }
+   
+}
+
